@@ -1,0 +1,143 @@
+body {
+    background-color:#ff905d;
+    padding-top: 100px;
+  }
+
+  #clickmebutton { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    }
+
+#wrapper {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+display: grid;
+grid-auto-rows: minmax(0px, auto);
+grid-template-columns: minmax(0px, 1fr) repeat(7, minmax(0, 175px)) minmax(0px, 1fr);
+
+    }
+
+ #login-stoof {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   display: center;  
+  
+    }
+
+
+  #create-login {
+    padding-bottom: 10% ;
+  }  
+
+  #create-login input {
+
+    width: 180px;
+  }
+
+body {
+    background-color:#ff905d;
+    padding-top: 100px;
+  }
+
+
+
+h1 {
+    grid-area: 1/2/2/-2;
+}
+
+#kenobi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border-radius: 150px;
+    grid-area: 2/1/3/-1;
+}
+
+#greeting-section {
+    margin-top: 20px;
+    grid-area: 3/1/4/-1;
+}
+
+#greetingButton {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 48%;
+    width: 100px;
+    background-color: rgb(92, 146, 165);
+    
+    }
+
+#my-list {
+    list-style-type: none;
+    grid-area: 6/4/5/7;
+}
+
+#my-list li {
+    border-style:ridge;
+    border-color: black;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+
+
+
+.openBtn {
+  display: flex;
+  justify-content: left;
+}
+.loginPopup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.formPopup {
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  border: 3px solid #999999;
+  z-index: 9;
+}
+.formContainer {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #ff905d;
+}
+
+.formContainer input {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.formContainer {
+  background-color: rgb(129, 129, 129);
+  outline: none;
+}
+.formContainer .btn {
+  padding: 12px 20px;
+  border: none;
+  background-color: #8ebf42;
+  color: #fff;
+  cursor: pointer;
+  
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.formContainer .btn-cancel {
+  background-color: #cc0000;
+  padding: 12px 20px;
+  color: #fff;
+}
+.formContainer .btn:hover {
+  opacity: 1;
+}
+

@@ -1,1 +1,129 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello There!</title> 
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="resources\grievous.jpg">
+</head>
+<body>
+	
+<div id="wrapper">
+<img id="kenobi" src="resources\kenobi.jpg">
+
+<h1>GREETINGS CENTRAL</h1>
+
+<div id="greeting-section">
+<label for="name">
+     Greeting: 
+     <input name="name" id="name">
+</label>
+<label for="type">
+     Type: 
+     <input name="type" id="type">
+</label>
+<label for="effectiveness">
+     Effectiveness (number): 
+     <input name="effectiveness" id="effectiveness">
+</label>
+<label for="publiclyAcceptable">
+     Is this publicly acceptable to say: 
+     <input name="publiclyAcceptable" id="publiclyAcceptable">
+</label>
+<label for="whoSaidIt">
+     Who said this: 
+     <input name="whoSaidIt" id="whoSaidIt">
+</label>
+
+
+<button id="greetingButton">Add Greeting</button>
+</div>
+
+
+<ul id="my-list">
+<!-- content is inserted here -->
+</ul>
+
+
+<div class="openBtn">
+   </div>
+   <div class="loginPopup">
+     <div class="formPopup" id="popupForm">
+       <div class="formContainer">
+         <h2>Edit Greeting Fields</h2>
+
+         <label>
+           Name:
+         </label>
+         <input type="text" id="the-name"  name="the-name" required>
+         <label>
+           Type:
+         </label>
+         <input type="text" id="the-type"  name="the-type" required>
+         <label>
+          Effectiveness (number):
+        </label>
+        <input type="text" id="the-effectiveness"  name="the-effectiveness" required>
+        <label>
+          Is this publicly acceptable to say:
+        </label>
+        <input type="text" id="the-acceptability"  name="the-acceptability" required>
+        <label>
+          Who said this:
+        </label>
+        <input type="text" id="the-who"  name="the-who" required>
+
+         <button class="btn">Confirm</button>
+         <button class="btn-cancel">Cancel</button>
+     </div>
+     </div>
+   </div>
+
+
+
+
+
+</div>
+
+<div id="login-stoof">
+  
+  <div id="create-login">
+    <h2>Create Account</h2>
+    <br><br>
+    <label for="create-email">
+      Email:  <br>
+      <input name="create-email" type="email" id="create-email">
+  </label>
+  <label for="create-fname">
+    <br> First Name:  <br>
+    <input name="create-fname" id="create-fname">
+  </label>
+  <label for="create-lname">
+    <br> Last Name: <br>
+  <input name="create-lname" id="create-lname">
+  </label>
+  <label for="create-passwd">
+    <br> Password:  <br>
+    <input name="create-passwd" type="password" id="create-passwd">
+  </label>
+  <br><br>
+  <button class="create-btn">Create Account</button>
+  </div>
+  
+  <div id="just-login">
+    <h3>Already a member? Login Here:</h1> 
+    <br><br>
+    <label for="just-email">
+      Email: 
+      <input name="just-email" type="email" id="just-email">
+  </label>
+  <label for="just-passwd">
+    Password: 
+    <input name="just-passwd" type="password" id="just-passwd">
+  </label>
+  <br><br>
+  <button class="just-btn">Login</button>
+  </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
