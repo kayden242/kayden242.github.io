@@ -151,7 +151,7 @@ function createUsers(userEmail, userFname, userLname, userPasswd) {
   }
   }).then(function(response){
   loadquotes();
-  if (response.status == 409){
+  if (response.status == 422){
     alert("Email already in use")
     return;
      }
